@@ -3,11 +3,13 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   #binding.pry
-  if int % 3 == 0
+  a = int % 3
+  b = int % 5
+  if a == 0
     "Fizz"
-  elsif int % 5 == 0
+  elsif b == 0
      "Buzz"
-  elsif (int % 5 && int % 3) == 0 
+  elsif  a == 0 b == 0
      "FizzBuzz"
   else 
     puts nil
